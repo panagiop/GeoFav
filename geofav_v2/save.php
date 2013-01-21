@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Save this location</title>
-	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Save this location</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <link href="http://code.jquery.com/mobile/latest/jquery.mobile.min.css" rel="stylesheet" type="text/css" />
     <script src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
     <script src="http://code.jquery.com/mobile/latest/jquery.mobile.min.js"></script>
@@ -23,7 +23,7 @@
 							<option value="Restaurant">Restaurant</option>
 							<option value="Cafe">Cafe</option>
 							<option value="Shopping center">Shopping center</option>
-							<option value="Friend's place">Friend's place</option>
+							<option value="Friend's place">Friends place</option>
 							<option value="Square">Square</option>
 							<option value="Other">Other</option>
 						</select>
