@@ -5,7 +5,7 @@ A mobile web app that spots the current location of a user giving the option to 
 
 <!--IMPORTANT-->
 
-In order to make this app work create the above tables in your database. Either by MySQL query or via phpMyAdmin. 
+In order to make this app work create the below tables in your database. Either by MySQL query or via phpMyAdmin. 
 Also fill in your settings inside "connect.php" file in order to connect the app with your database.
 
 -- Table structure for table `usr`
