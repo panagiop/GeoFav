@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>GeoFav</title>
-	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>GeoFav</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <link href="http://code.jquery.com/mobile/latest/jquery.mobile.min.css" rel="stylesheet" type="text/css" />
     <script src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
     <script src="http://code.jquery.com/mobile/latest/jquery.mobile.min.js"></script>
@@ -10,12 +10,12 @@
 </head>
 <body>
 
-<?php include_once 'connect.php';
-$sql="SELECT * from usr where uname='$uname'";
-$result=mysql_query($sql);
-$row=mysql_fetch_array($result);
-$id= $row['id'];
-?>
+    <?php include_once 'connect.php';
+    $sql="SELECT * from usr where uname='$uname'";
+    $result=mysql_query($sql);
+    $row=mysql_fetch_array($result);
+    $id= $row['id'];
+    ?>
 
 <div data-role="page" data-fullscreen="true">
   <div data-role="header">
