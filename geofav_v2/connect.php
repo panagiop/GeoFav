@@ -33,7 +33,7 @@ if (isset($_POST['login_button'])){
 	$sql ="select randsalt,uname,pass from usr where uname='$uname'";
 	$res = mysql_query($sql);
 	$row = mysql_fetch_array($res);
-    $hashed_pass = sha1($row['randsalt'].$pre_pass); 
+    	$hashed_pass = sha1($row['randsalt'].$pre_pass); 
 	if ($hashed_pass == $row['pass']){
 		if (mysql_num_rows($res) > 0)
 		{
@@ -53,6 +53,6 @@ if (isset($_POST['login_button'])){
 else if (isset($_SESSION['uname'])){
 	$uname = $_SESSION['uname'];
 	$pass = $_SESSION['pass'];
-    $login = 1;
+    	$login = 1;
 }
 ?>
