@@ -13,7 +13,7 @@ if(isset($_POST['register_button'])){
 	$email2 = sanitizeString($_POST[email2]);
         //validating the form fields
         $error .= val_uname($uname2);
-	$error .= val_pass($pass2);
+	$error .= val_pass($pre_pass2);
 	$error .= val_firstname($firstname2);
 	$error .= val_lastname($lastname2);
 	$error .= val_email($email2);
