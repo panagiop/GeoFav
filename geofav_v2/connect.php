@@ -38,6 +38,8 @@ if (isset($_POST['login_button'])){
 		if (mysql_num_rows($res) > 0)
 		{
 			$login = 1;
+			//generate a new session id in order to prevent session fixation
+			session_regenerate_id(); 
 			$_SESSION['uname'] = $uname;
 			$_SESSION['pass'] = $pass;
 			echo "You are logged in.";
@@ -51,6 +53,7 @@ if (isset($_POST['login_button'])){
 	}
 } 
 else if (isset($_SESSION['uname'])){
+	session_regenerate_id();
 	$uname = $_SESSION['uname'];
 	$pass = $_SESSION['pass'];
     	$login = 1;
