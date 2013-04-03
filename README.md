@@ -3,6 +3,8 @@ GeoFav
 
 A mobile web app that spots the current location of a user giving the option to save it as a favorite one. This is achieved by invoking HTML5 Geolocation and Google Maps API.
 
+See how it works here: http://www.intergalacdev.net63.net/geofav2/
+
 <!--IMPORTANT-->
 
 In order to make this app work create the below tables in your database. Either by MySQL query or via phpMyAdmin. 
